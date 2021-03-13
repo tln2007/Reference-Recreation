@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(HelveticaNeue.ttc);
+}
+
+@font-face {
+  font-family: Baskerville;
+  src: url(Baskerville.ttc);
+}
+
+.mainContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+  width: 38vw;
+  /* height: 49vw; */
+  box-shadow: 0px 10px 20px black;
+  padding: 2.5vw;
+}
+
+.firstLine p {
+  font-family: Baskerville;
+  font-size: 1vw;
+  color: white;
+  /* position: absolute; */
+  /* top: 2vw; */
+  /* left: 34vw; */
+}
+
+.ital {
+  font-style: italic;
+}
+.topText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topText p {
+  box-sizing: border-box;
+  margin-top: -0.5vw;
+  font-family: Baskerville;
+  font-style: normal;
+  font-size: 0.5vw;
+  color: white;
+  width: 22%;
+  border-bottom: 0.1vw solid #fff;
+  padding-bottom: 0.5vw;
+
+  /* top: 5vw; */
+  /* left: 34vw; */
+  /* columns: 5px 4; */
+}
+
+.topQuote p {
+  /*border: 1px solid red;*/
+  margin-top: 0.7vw;
+  font-family: HelveticaNeue;
+  font-weight: 1000;
+  font-size: 2.7vw;
+  line-height: 90%;
+  /* position: absolute; */
+  top: 7vw;
+  left: 34vw;
+  color: rgb(192, 170, 134);
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
+}
+
+.bottomQuote {
+  /*border: 1px solid gold;*/
+  font-family: HelveticaNeue;
+  font-weight: 1000;
+  font-size: 2.7vw;
+  line-height: 5vw;
+  margin-top: -2vw;
+  /* position: absolute; */
+  color: white;
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
+  /*border-bottom: 0.1vw solid #fff;*/
+}
+
+#line {
+  height:0.01vw;
+  background-color:#fff;
+  margin-top: -1.3vw;
+}
+
+
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.dot1 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 0.7vw;
+  width: 0.7vw;
+  background-color: rgb(192, 170, 134);
+  border-radius: 50%;
+}
+
+.dot2 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 0.7vw;
+  width: 0.7vw;
+  background-color: rgb(194, 170, 132);
+  border-radius: 50%;
+}
+
+.dot3 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 0.7vw;
+  width: 0.7vw;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.dot4 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 1vw;
+  width: 1vw;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot5 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 1vw;
+  width: 1vw;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot6 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 1vw;
+  width: 1vw;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot7 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 1vw;
+  width: 1vw;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot8 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 1vw;
+  width: 1vw;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot9 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 1vw;
+  width: 1vw;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot10 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 0.8vw;
+  width: 0.8vw;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dot11 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 0.7vw;
+  width: 0.7vw;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.dot12 {
+  margin-top: -0.8vw;
+  margin-bottom: 0.8vw;
+  height: 0.7vw;
+  width: 0.7vw;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomContainer div {
+  width: 22%;
+  /* background-color: #ff0072; */
+}
+
+.bottomContainer {
+  color: #fff;
+  box-sizing: border-box;
+  font-family: Baskerville;
+  font-size: 0.5vw;
+  color: white;
+}
+
+.number {
+  /*border: 1px solid gold;*/
+  margin-top: -2.8vw;
+  margin-right: -0.8vw;
+  font-family: HelveticaNeue;
+  font-weight: 1000;
+  font-size: 6vw;
+  /* position: absolute; */
+  top: 40vw;
+  left: 60vw;
+  color: rgb(192, 170, 134);
+  text-shadow: 0.5px 0 currentColor;
+  letter-spacing: 0.5px;
+}
